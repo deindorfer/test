@@ -5,4 +5,4 @@ use warnings;
 
 use LibTest;
 
-test_sub( "Hi There" ); 
+test_sub( shift || "Hi There" ); 
